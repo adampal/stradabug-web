@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <div>
+      <%= link_to "Page 1", home_page_1_path %>
+      <%= link_to "Page 2", home_page_2_path %>
+      <%= link_to "Redirect to Page 1", home_redirected_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
